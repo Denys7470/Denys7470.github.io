@@ -1,0 +1,7 @@
+.cardsuits li {  list-style-type: none;
+	margin-left:35px;position:relative;margin-bottom:0.25em;}
+.cardsuits li:nth-child(1n):before {position:absolute;left:-1em;text-shadow: 2px 2px #666;}
+.cardsuits li:nth-child(1):before {content: "\2660";color:black;}
+.cardsuits li:nth-child(2):before {content: "\2665";color:red;}
+.cardsuits li:nth-child(3):before {content: "\2666";color:red;}
+.cardsuits li:nth-child(4):before {content: "\2663";color:black;}

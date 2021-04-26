@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <style>
+ .left-right-line-header {
+  text-align: center;
+  line-height: 0;
+}
+.left-right-line-header:before {
+  content: "";
+  border-bottom: 1px solid #4bb;
+  width: 50%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: calc(-50% - 10px);
+}
+.left-right-line-header:after {
+  content: "";
+  border-bottom: 1px solid #4bb;
+  width: 50%;
+  height: 0.5em;
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+}
+ </style>
+</head>
+<body>
+	<h1 class="pretty-header left-right-line-header">TITLE</h1>
+</body>
+</html>
