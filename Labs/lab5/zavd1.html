@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>Ссылки</title>
+ <style>
+ .main-block {
+	position: absolute;
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+}
+.house {
+	position: absolute;
+  width: 150px;
+  height: 150px;
+  background: coral;
+	left: 35px;
+	top: 150px;
+}
+.roof {
+	position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 110px solid transparent;
+    border-right: 110px solid transparent;
+    border-bottom: 100px solid red;
+	top: 50px;
+}
+.chimney {
+	position: absolute;
+  width: 20px;
+  height: 60px;
+  background: black;
+	left: 50px;
+	top: 50px;
+}
+.door {
+	position: absolute;
+   width: 60px;
+  height: 90px;
+  background: brown;
+	left: 50px;
+	top: 210px;
+	z-index: 1;
+}
+.window {
+	position: absolute;
+   width: 40px;
+  height: 40px;
+  background: cyan;
+	top: 170px;
+	right: 130px;
+	z-index: 1;
+}
+ </style>
+</head>
+<body>
+<div class="main-block">
+  <div class="door"></div>
+  <div class="window"></div>
+  <div class="house"></div>
+  <div class="chimney"></div>
+  <div class="roof"></div>
+</div>
+</body>
+</html>
